@@ -43,7 +43,7 @@ I have only tested this on Mac OS, however I'm pretty sure it'll work without is
 ### Build
 
 1. Clone the repo
-2. go build -o dist/gitgpt gitgpt.go
+2. go build -o dist/gitgpt main.go
 3. Add the file to your PATH
 ```
 echo 'export PATH=$PATH:<path_to_repository/dist>' >> ~/.bash_profile
