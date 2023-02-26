@@ -23,3 +23,9 @@ jobs:
 
     - name: Build
       run: go build -v -o dist/gitgpt main.go
+  
+    - name: Publish artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: gitgpt
+        path: dist/gitgpt
