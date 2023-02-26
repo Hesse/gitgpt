@@ -50,4 +50,22 @@ echo 'export PATH=$PATH:<path_to_repository/dist>' >> ~/.bash_profile
 
 ```
 
+## Usage
+
+### Examples
+
+$ gitgpt create a new branch called feature/test add all the files and commit with msg creating feature test then push to origin
+
+```
+f$ gitgpt create a new branch called feature/test add all the files and commit with msg creating feature test then push to origin
+Would you like to run the following command:
+
+git branch feature/test
+git add .
+git commit -m "creating feature test"
+git push origin feature/test [y/N]
+```
+
+
+
 
