@@ -4,7 +4,7 @@ Interfacing with git sucks. With gitgpt you can use natural langauge instead of 
 
 Example:
 ```
-$ ./gitgptv2 add .gitignore commit with msg adding ignore and push
+$ ./gitgpt add .gitignore commit with msg adding ignore and push
 Would you like to run the following command:
 
 git add .gitignore
@@ -49,6 +49,7 @@ I have only tested this on Mac OS, however I'm pretty sure it'll work without is
 echo 'export PATH=$PATH:<path_to_repository/dist>' >> ~/.bash_profile
 
 ```
+4. Start using gitgpt in you shell! 
 
 ## Usage
 
@@ -57,7 +58,7 @@ echo 'export PATH=$PATH:<path_to_repository/dist>' >> ~/.bash_profile
 $ gitgpt create a new branch called feature/test add all the files and commit with msg creating feature test then push to origin
 
 ```
-f$ gitgpt create a new branch called feature/test add all the files and commit with msg creating feature test then push to origin
+$ gitgpt create a new branch called feature/test add all the files and commit with msg creating feature test then push to origin
 Would you like to run the following command:
 
 git branch feature/test
