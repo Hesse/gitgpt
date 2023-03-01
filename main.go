@@ -25,8 +25,13 @@ type CompletionResponse struct {
 	} `json:"choices"`
 }
 
+var apiKey string
+
+func init() {
+	apiKey = getAPIKey()
+}
+
 func main() {
-	apiKey := getAPIKey()
 	prompt := getPrompt()
 
 	text := completePrompt(apiKey, prompt)
