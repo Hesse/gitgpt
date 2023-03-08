@@ -1,6 +1,6 @@
 # Natural Language Git CLI assistant
 
-Interfacing with git sucks. With gitgpt you can use natural langauge instead of git commands to do what you want. 
+Interfacing with git sucks. With gitgpt, you can use natural langauge instead of git commands to do what you want. 
 
 Example:
 ```
